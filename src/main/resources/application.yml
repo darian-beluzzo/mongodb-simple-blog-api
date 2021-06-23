@@ -1,0 +1,12 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /api/v1
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://admin:qwe123@localhost:27017/simpleBlog?authSource=admin
+  output:
+    ansi:
+      enabled: ALWAYS
