@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import javax.validation.Valid;
 
-@Tag(name = "Post", description = "Endpoint for post data")
+@Tag(name = "Posts", description = "Endpoint for Posts data")
 public interface PostController {
 
     @Operation(summary = "Find all Posts", description = "Find all Posts", tags = {"Post"})

@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "User",
+			"name": "Users",
 			"item": [
 				{
 					"name": "createUser",
@@ -23,7 +23,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9090/api/v1/user/",
+							"raw": "http://localhost:8080/api/v1/users/",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -45,7 +45,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9090/api/v1/user/Doe",
+							"raw": "http://localhost:8080/api/v1/users/Doe",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -67,7 +67,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9090/api/v1/user/000",
+							"raw": "http://localhost:8080/api/v1/users/000",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -86,7 +86,7 @@
 			]
 		},
 		{
-			"name": "Post",
+			"name": "Posts",
 			"item": [
 				{
 					"name": "createPost",
@@ -103,7 +103,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9090/api/v1/post",
+							"raw": "http://localhost:8080/api/v1/posts",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -133,7 +133,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9090/api/v1/post/c2884795-f592-444f-a559-d5cba568b27c/comment",
+							"raw": "http://localhost:8080/api/v1/posts/c2884795-f592-444f-a559-d5cba568b27c/comment",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -156,7 +156,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9090/api/v1/post/segundo",
+							"raw": "http://localhost:8080/api/v1/posts/segundo",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -178,7 +178,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9090/api/v1/post/",
+							"raw": "http://localhost:8080/api/v1/posts/",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -209,7 +209,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9090/api/v1/post",
+							"raw": "http://localhost:8080/api/v1/posts",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -230,7 +230,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9090/api/v1/post/f8ac7b38-2b74-401b-9df6-919f4743d236",
+							"raw": "http://localhost:8080/api/v1/posts/f8ac7b38-2b74-401b-9df6-919f4743d236",
 							"protocol": "http",
 							"host": [
 								"localhost"

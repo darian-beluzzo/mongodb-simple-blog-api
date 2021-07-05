@@ -12,7 +12,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 
-@Tag(name = "User", description = "Endpoint for user data")
+@Tag(name = "Users", description = "Endpoint for user data")
 public interface UserController {
 
     @Operation(summary = "Find all Users", description = "Find all Users", tags = {"User"})

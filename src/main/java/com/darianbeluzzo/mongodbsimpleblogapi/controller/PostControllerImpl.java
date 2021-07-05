@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 
 @RestController
-@RequestMapping(value = "/post", produces = MediaType.APPLICATION_JSON_VALUE)
+@RequestMapping(value = "/posts", produces = MediaType.APPLICATION_JSON_VALUE)
 public class PostControllerImpl implements PostController {
 
     private final Logger logger = LoggerFactory.getLogger(PostControllerImpl.class);
